@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -7,8 +8,12 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            padding: auto;
             background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .spacer {
+            height: 150px;
         }
         .container {
             background: white;
@@ -17,6 +22,7 @@
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             display: inline-block;
             max-width: 400px;
+            margin: auto;
         }
         h1 {
             color: #333;
@@ -35,36 +41,15 @@
         .download-btn:hover {
             background-color: #000;
         }
-        .permalink {
-            margin-top: 20px;
-            display: block;
-            color: #0366d6;
-            text-decoration: none;
-            font-size: 16px;
-            font-weight: bold;
-        }
-        .permalink:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+    <div class="spacer"></div>
     <div class="container">
         <h1>Click Link to Watch</h1>
-        <p></p>
-        <a href="https://samass631.github.io/C7X4xu1L1.mp4" class="download-btn">https://cdn.videy.co/C7X4xu1L1.mp4</a>
-        
+        <a href="https://samass631.github.io/C7X4xu1L1.mp4" class="download-btn" target="_blank">
+            https://cdn.videy.co/C7X4xu1L1.mp4
+        </a>
     </div>
-
 </body>
 </html>
